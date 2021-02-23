@@ -46,4 +46,71 @@ Let and const are BLOCK scoped.
 
 Template literal
 
-` ${}`
+` ${}` - string interpulation
+
+3. Types and Conditionals
+
+Primitive types:
+
+- string
+- number
+- boolean
+- undefined
+- null
+- symbol
+
+Object types:
+
+- everything else
+
+To get the type of a variable, we use -->typeof<--
+console.log(typeof message)
+
+Convert to a different type:
+
+1)Explicit type conversion
+
+- number to a string: String(42)
+- string to a boolean: Boolean(message)
+  2)Implicit type conversion (coercion)
+- '1' \* '2'. Multiplication coercise strings to a number.
+
+IMPORTANT!
+if(Boolean(value) === true) {
+if true, do something value
+}
+
+Falsy values:
+
+- false
+- 0
+- ''
+- null
+- undefined
+- NaN
+
+4. Functions
+   Reference error - not defined
+   Function returns Undefinied by default (if you dont return anything)
+
+   Closure
+
+   1. Closures are a property of the JavaScript functions.
+   2. Call a function in a diffrent scope than where function was orifinaly defined.
+
+   toFixed(deciamlPlace) return string
+   Number(fahrenheit.toFixed(decimalPlace))
+
+   Arrow Function
+
+   function capitalize(name) {
+   return `${name.charAt(0).toUpperCase()}${name.slice(1)}`
+   }
+
+   const capitalize = (name) => {
+   return `${name.charAt(0).toUpperCase()}${name.slice(1)}`
+   }
+
+   Higher order functions: when passing one function to another.
+
+5. Objects
