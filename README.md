@@ -114,3 +114,24 @@ Falsy values:
    Higher order functions: when passing one function to another.
 
 5. Objects
+
+Variables - boxes; objects - file cabinets
+
+{
+sayHi() {
+console.log('hi)
+}
+}
+
+Primitive data types:
+
+- undefined
+- null
+- boolean,
+- number,
+- string,
+- symbol
+
+Primitive values are passed by value.
+
+Objects are passed by reference.
