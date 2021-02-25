@@ -135,3 +135,18 @@ Primitive data types:
 Primitive values are passed by value.
 
 Objects are passed by reference.
+
+const obj = {}
+const anotherObj = obj
+anotherObj.a = 1
+
+If we console.log they will be the same.
+
+Objects have to have strings or symbols as keys.
+
+Maps(objects plus)
+
+Map preserve insetion order.
+
+//to get the size
+Map.size;
